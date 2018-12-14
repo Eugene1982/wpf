@@ -3,6 +3,7 @@
   <PropertyGroup>
     <WpfTestsDir>$(MsBuildThisFileDirectory)</WpfTestsDir>
     <SignAssembly>false</SignAssembly>
+    <IsTestProject>true</IsTestProject>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <EmbeddedResource>

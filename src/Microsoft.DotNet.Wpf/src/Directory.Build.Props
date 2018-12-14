@@ -6,5 +6,7 @@
     <GenerateResourcesCodeAsConstants>true</GenerateResourcesCodeAsConstants>
     <WpfSharedDir>$(MSBuildThisFileDirectory)Shared\</WpfSharedDir>
     <WpfCommonDir>$(MSBuildThisFileDirectory)Common\</WpfCommonDir>
+    <!-- Source binaries are shipping via the transport package. -->
+    <IsShipping Condition="'$(IsShipping)'==''">true</IsShipping>
   </PropertyGroup>
 </Project>
